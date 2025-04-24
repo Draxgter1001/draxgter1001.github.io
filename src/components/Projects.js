@@ -14,24 +14,31 @@ function Projects() {
             image: footballClubAppImage,
             title: 'Football Club App',
             description: 'A simple android app where user can view and add football leagues or search for jerseys from different football teams.',
-            technologies: ['Kotlin', 'Jetpack Compose', 'Room'],
+            technologies: ['Kotlin', 'JetpackCompose'],
             githubLink: 'https://github.com/Draxgter1001/Football_Club_App',
-        },
-        {
-            image: guessTheFlagImage,
-            title: 'Guess the Flag App',
-            description: "A simple android app where the user needs to guess the correct country's flag. It has different game modes and an hard mode for those who wants an extra challenge.",
-            technologies: ['Kotlin', 'Jetpack Compose', 'Room'],
-            githubLink: 'https://github.com/Draxgter1001/GuessTheFlag2.0',
         },
         {
             image: pokedexClientImage,
             title: 'Pokedex',
             description: "A simple pokedex where you can view all of your favourites pokemon up to gen 7.",
-            technologies: ['Java', 'Spring Boot', 'React', 'Postgresql'],
+            technologies: ['Java', 'SpringBoot', 'React', 'Postgresql'],
             githubLink: 'https://github.com/Draxgter1001/pokedex_client',
             liveLink: 'https://draxgter1001.github.io/pokedex_client/',
         },
+        {
+            image: ttsGeneratorImage,
+            title: 'TTS Generator',
+            description: "A simple TTS Generator that generates an audio file for you based on your text.",
+            technologies: ['Python'],
+            githubLink: 'https://github.com/Draxgter1001/TTS-Generator',
+        },
+        {
+            image: plantIdentifierImage,
+            title: 'Venomous Plant Identifier',
+            description: "A simple web app that identifies if a plant is venomous or not. It uses a machine learning model to identify the plant.",
+            technologies: ['React', 'Java', 'SpringBoot', 'Postgresql'],
+            liveLink: 'https://venomous-plant-identifier-frontend.vercel.app/'
+        }
     ];
 
     return (
