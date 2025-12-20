@@ -11,13 +11,6 @@ function Projects() {
 
     const projectData = [
         {
-            image: footballClubAppImage,
-            title: 'Football Club App',
-            description: 'A simple android app where user can view and add football leagues or search for jerseys from different football teams.',
-            technologies: ['Kotlin', 'JetpackCompose'],
-            githubLink: 'https://github.com/Draxgter1001/Football_Club_App',
-        },
-        {
             image: pokedexClientImage,
             title: 'Pokedex',
             description: "A simple pokedex where you can view all of your favourites pokemon up to gen 7.",
@@ -40,7 +33,7 @@ function Projects() {
             liveLink: 'https://venomous-plant-identifier-frontend.vercel.app/'
         },
         {
-            image: plantIdentifierImage,
+            image: MLOLIcon,
             title: 'Masteries League of Legends',
             description: "A simple website where players can track their LoL champion masteries and see how many chests they can earn.",
             technologies: ['React', 'Java', 'SpringBoot', 'Postgresql'],
