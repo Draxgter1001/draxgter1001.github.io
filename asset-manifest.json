@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/personal-website-app/static/css/main.0db9adeb.css",
-    "main.js": "/personal-website-app/static/js/main.9142cec9.js",
-    "static/js/453.d43789ce.chunk.js": "/personal-website-app/static/js/453.d43789ce.chunk.js",
-    "static/media/MLOLIcon.png": "/personal-website-app/static/media/MLOLIcon.c770bc5f949487ca1f20.png",
-    "static/media/Uccio (League).jpeg": "/personal-website-app/static/media/Uccio (League).5c46014c0164e0b688df.jpeg",
-    "static/media/finalyearproject.png": "/personal-website-app/static/media/finalyearproject.7f574750b83301faded5.png",
-    "static/media/PokedexClient.png": "/personal-website-app/static/media/PokedexClient.f2031bb995aadaa829ef.png",
-    "index.html": "/personal-website-app/index.html",
-    "main.0db9adeb.css.map": "/personal-website-app/static/css/main.0db9adeb.css.map",
-    "main.9142cec9.js.map": "/personal-website-app/static/js/main.9142cec9.js.map",
-    "453.d43789ce.chunk.js.map": "/personal-website-app/static/js/453.d43789ce.chunk.js.map"
+    "main.css": "/static/css/main.0db9adeb.css",
+    "main.js": "/static/js/main.1b9d99c3.js",
+    "static/js/453.d43789ce.chunk.js": "/static/js/453.d43789ce.chunk.js",
+    "static/media/MLOLIcon.png": "/static/media/MLOLIcon.c770bc5f949487ca1f20.png",
+    "static/media/Uccio (League).jpeg": "/static/media/Uccio (League).5c46014c0164e0b688df.jpeg",
+    "static/media/finalyearproject.png": "/static/media/finalyearproject.7f574750b83301faded5.png",
+    "static/media/PokedexClient.png": "/static/media/PokedexClient.f2031bb995aadaa829ef.png",
+    "index.html": "/index.html",
+    "main.0db9adeb.css.map": "/static/css/main.0db9adeb.css.map",
+    "main.1b9d99c3.js.map": "/static/js/main.1b9d99c3.js.map",
+    "453.d43789ce.chunk.js.map": "/static/js/453.d43789ce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0db9adeb.css",
-    "static/js/main.9142cec9.js"
+    "static/js/main.1b9d99c3.js"
   ]
 }
