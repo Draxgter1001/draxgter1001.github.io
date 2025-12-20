@@ -3,21 +3,13 @@ import ProjectCard from './ProjectCard';
 import pokedexClientImage from '../assets/PokedexClient.png';
 import useIntersectionObserver from '../hooks/useInterscetionObserver';
 import plantIdentifierImage from '../assets/finalyearproject.png';
-import masteriesLoL from '../assets/MLOLIcon.png';
+import masteriesLoL from '../assets/leagueweb.png';
 
 function Projects() {
     const ref = useRef();
     const isVisible = useIntersectionObserver(ref, { threshold: 0.1 });
 
     const projectData = [
-        {
-            image: pokedexClientImage,
-            title: 'Pokedex',
-            description: "A simple pokedex where you can view all of your favourites pokemon up to gen 7.",
-            technologies: ['Java', 'SpringBoot', 'React', 'Postgresql'],
-            githubLink: 'https://github.com/Draxgter1001/pokedex_client',
-            liveLink: 'https://draxgter1001.github.io/pokedex_client/',
-        },
         {
             image: plantIdentifierImage,
             title: 'Venomous Plant Identifier',
@@ -32,7 +24,15 @@ function Projects() {
             technologies: ['React', 'Java', 'SpringBoot', 'Postgresql'],
             githubLink: 'https://github.com/Draxgter1001/league-mastery',
             liveLink: 'https://league-mastery.vercel.app/'
-        }
+        },
+        {
+            image: pokedexClientImage,
+            title: 'Pokedex',
+            description: "A simple pokedex where you can view all of your favourites pokemon up to gen 7.",
+            technologies: ['Java', 'SpringBoot', 'React', 'Postgresql'],
+            githubLink: 'https://github.com/Draxgter1001/pokedex_client',
+            liveLink: 'https://draxgter1001.github.io/pokedex_client/',
+        },
     ];
 
     return (
