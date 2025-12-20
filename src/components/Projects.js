@@ -38,6 +38,13 @@ function Projects() {
             description: "A simple web app that identifies if a plant is venomous or not. It uses a machine learning model to identify the plant.",
             technologies: ['React', 'Java', 'SpringBoot', 'Postgresql'],
             liveLink: 'https://venomous-plant-identifier-frontend.vercel.app/'
+        },
+        {
+            image: plantIdentifierImage,
+            title: 'Masteries League of Legends',
+            description: "A simple website where players can track their LoL champion masteries and see how many chests they can earn.",
+            technologies: ['React', 'Java', 'SpringBoot', 'Postgresql'],
+            liveLink: 'https://league-mastery.vercel.app/'
         }
     ];
 
