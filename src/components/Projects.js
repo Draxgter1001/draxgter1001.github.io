@@ -37,6 +37,7 @@ function Projects() {
             title: 'Masteries League of Legends',
             description: "A simple website where players can track their LoL champion masteries and see how many chests they can earn.",
             technologies: ['React', 'Java', 'SpringBoot', 'Postgresql'],
+            githubLink: 'https://github.com/Draxgter1001/league-mastery',
             liveLink: 'https://league-mastery.vercel.app/'
         }
     ];
