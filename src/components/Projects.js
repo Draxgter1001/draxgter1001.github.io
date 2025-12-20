@@ -1,9 +1,9 @@
 import React, { useRef } from 'react';
 import ProjectCard from './ProjectCard';
-import footballClubAppImage from '../assets/Football Club App.png';
-import guessTheFlagImage from '../assets/Guess The Flag App.png';
 import pokedexClientImage from '../assets/PokedexClient.png';
 import useIntersectionObserver from '../hooks/useInterscetionObserver';
+import plantIdentifierImage from '../assets/finalyearproject.png';
+import masteriesLoL from '../assets/MLOLIcon.png';
 
 function Projects() {
     const ref = useRef();
@@ -19,13 +19,6 @@ function Projects() {
             liveLink: 'https://draxgter1001.github.io/pokedex_client/',
         },
         {
-            image: ttsGeneratorImage,
-            title: 'TTS Generator',
-            description: "A simple TTS Generator that generates an audio file for you based on your text.",
-            technologies: ['Python'],
-            githubLink: 'https://github.com/Draxgter1001/TTS-Generator',
-        },
-        {
             image: plantIdentifierImage,
             title: 'Venomous Plant Identifier',
             description: "A simple web app that identifies if a plant is venomous or not. It uses a machine learning model to identify the plant.",
@@ -33,7 +26,7 @@ function Projects() {
             liveLink: 'https://venomous-plant-identifier-frontend.vercel.app/'
         },
         {
-            image: MLOLIcon,
+            image: masteriesLoL,
             title: 'Masteries League of Legends',
             description: "A simple website where players can track their LoL champion masteries and see how many chests they can earn.",
             technologies: ['React', 'Java', 'SpringBoot', 'Postgresql'],
