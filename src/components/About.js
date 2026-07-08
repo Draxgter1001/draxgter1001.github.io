@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin, FaJava } from 'react-icons/fa';
 import { SiSpringboot, SiReact, SiTailwindcss } from 'react-icons/si';
 import logo from '../assets/Uccio (League).jpeg';
+import cvFile from '../assets/CV Tafshi Hoque_Software.pdf';
 
 function About() {
     return (
@@ -27,6 +28,14 @@ function About() {
                     <FaLinkedin className="w-10 h-10 text-secondary hover:text-accent transition-colors" />
                 </a>
             </div>
+            <a
+                href={cvFile}
+                download="Tafshi_Uthshow_Hoque_CV.pdf"
+                className="mt-8 bg-primary dark:bg-dark-primary text-white px-8 py-4 rounded-lg shadow-md hover:bg-accent dark:hover:bg-dark-accent transition-colors duration-300 text-lg md:text-xl"
+                aria-label="Download CV"
+            >
+                Download CV
+            </a>
             <hr className="w-full border-t-2 border-secondary my-6" />
         </div>
     );
