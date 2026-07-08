@@ -14,7 +14,27 @@ function Experiences() {
             <h1 className="text-6xl font-heading mb-8 text-center">Experiences</h1>
             <div className="space-y-6">
                 <div className="p-8 bg-white dark:bg-dark-cardBackground rounded-lg shadow-md">
+                    <h2 className="text-3xl font-bold mb-2 text-primary dark:text-dark-titleText">Backend Developer</h2>
+                    <p className="text-lg font-medium text-secondary dark:text-dark-cardText mb-4">Apr 2025 - Current</p>
+                    <p className="text-xl font-semibold text-secondary dark:text-dark-cardText mb-4">TridHome</p>
+                    <ul className="list-disc list-inside space-y-2">
+                        <li className="text-lg">
+                            <span className="font-semibold text-primary dark:text-dark-titleText">Engineered a custom AI model integration using Python (Django) to handle 24/7 user inquiries, reducing
+                            average customer support response time by ~40%.</span>
+                        </li>
+                        <li className="text-lg">
+                            <span className="font-semibold text-primary dark:text-dark-titleText">Developed 10+ robust API endpoints for client applications, ensuring 100% adherence to security best
+                            practices and protecting sensitive user data.</span>
+                        </li>
+                        <li className="text-lg">
+                            <span className="font-semibold text-primary dark:text-dark-titleText">Architected scalable microservices to optimize application performance, resulting in a 20% reduction in server
+                            latency during peak traffic periods.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div className="p-8 bg-white dark:bg-dark-cardBackground rounded-lg shadow-md">
                     <h2 className="text-3xl font-bold mb-2 text-primary dark:text-dark-titleText">Digital Marketing Intern</h2>
+                    <p className="text-lg font-medium text-secondary dark:text-dark-cardText mb-4">Mar 2022 - Apr 2022</p>
                     <p className="text-xl font-semibold text-secondary dark:text-dark-cardText mb-4">Europass Teacher Academy</p>
                     <ul className="list-disc list-inside space-y-2">
                         <li className="text-lg">
@@ -25,21 +45,6 @@ function Experiences() {
                         </li>
                         <li className="text-lg">
                             <span className="font-semibold text-primary dark:text-dark-titleText">Email Campaign Execution:</span> Launched targeted email campaigns with a 35% open rate and 10% click-through rate, enhancing customer engagement.
-                        </li>
-                    </ul>
-                </div>
-                <div className="p-8 bg-white dark:bg-dark-cardBackground rounded-lg shadow-md">
-                    <h2 className="text-3xl font-bold mb-2 text-primary dark:text-dark-titleText">Core Member</h2>
-                    <p className="text-xl font-semibold text-secondary dark:text-dark-cardText mb-4">Google Developer Student Club at University of Westminster</p>
-                    <ul className="list-disc list-inside space-y-2">
-                        <li className="text-lg">
-                            <span className="font-semibold text-primary dark:text-dark-titleText">Planning and Organization:</span> Plan and organize events such as Hackathons.
-                        </li>
-                        <li className="text-lg">
-                            <span className="font-semibold text-primary dark:text-dark-titleText">Communcation:</span> Act as a point of contact between the core team.
-                        </li>
-                        <li className="text-lg">
-                            <span className="font-semibold text-primary dark:text-dark-titleText">Supporting Member:</span>  Provide support to other team members who require assistance during an event.
                         </li>
                     </ul>
                 </div>
