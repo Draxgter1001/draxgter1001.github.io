@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.0db9adeb.css",
-    "main.js": "/static/js/main.fcb5cf4a.js",
+    "main.css": "/static/css/main.518289dc.css",
+    "main.js": "/static/js/main.b5a662e9.js",
     "static/js/453.d43789ce.chunk.js": "/static/js/453.d43789ce.chunk.js",
     "static/media/Uccio (League).jpeg": "/static/media/Uccio (League).5c46014c0164e0b688df.jpeg",
     "static/media/leagueweb.png": "/static/media/leagueweb.395d94ae7efb7576afeb.png",
     "static/media/finalyearproject.png": "/static/media/finalyearproject.7f574750b83301faded5.png",
+    "static/media/CV Tafshi Hoque_Software.pdf": "/static/media/CV Tafshi Hoque_Software.e8c129503e859a7d1649.pdf",
     "static/media/PokedexClient.png": "/static/media/PokedexClient.f2031bb995aadaa829ef.png",
     "index.html": "/index.html",
-    "main.0db9adeb.css.map": "/static/css/main.0db9adeb.css.map",
-    "main.fcb5cf4a.js.map": "/static/js/main.fcb5cf4a.js.map",
+    "main.518289dc.css.map": "/static/css/main.518289dc.css.map",
+    "main.b5a662e9.js.map": "/static/js/main.b5a662e9.js.map",
     "453.d43789ce.chunk.js.map": "/static/js/453.d43789ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0db9adeb.css",
-    "static/js/main.fcb5cf4a.js"
+    "static/css/main.518289dc.css",
+    "static/js/main.b5a662e9.js"
   ]
 }
